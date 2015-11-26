@@ -1,0 +1,87 @@
+// @import compass/css3
+
+/* Sass Shape Machine Mixin
+ *
+ *Simple, sassy shapes ;)
+ *
+ *based on: http://css-tricks.com/examples/ShapesOfCSS/
+
+// Some cute colors:
+$color1: #967bd3
+$color2: #c8815b
+$color3: #8cd6d8
+$color4: #bee6b6
+$color5: #dd9bb9
+$color6: #c4b5e6
+$color7: #a24f4f
+$bgcolor: #3d3d3d
+
+// Here's the Mixin!
+=shape($shape, $size, $color)
+  @if $shape == hexagon
+    width: $size * 2
+    height: $size * 1
+    background: $color
+    position: relative
+    &:before
+      content: ""
+      position: absolute
+      top: $size / -2
+      left: 0
+      width: 0
+      height: 0
+      border-left: $size solid transparent
+      border-right: $size solid transparent
+      border-bottom: $size / 2 solid $color
+    &:after
+      content: ""
+      position: absolute
+      bottom: $size / -2
+      left: 0
+      width: 0
+      height: 0
+      border-left: $size solid transparent
+      border-right: $size solid transparent
+      border-top: $size / 2 solid $color
+  // @if shape == octogon
+    width: $size
+    height: $size
+    background: transparent
+    position: relative
+    text-align: center
+    &:before
+      content: ""
+      position: absolute
+      top: 0
+      left: 0
+      border-bottom: 29 / $size solid $color
+      border-left: 29 / $size solid transparent
+      border-right: 29 / $size solid transparent
+      width: 42 / $size
+      height: 0
+    &:after
+      content: ""
+      position: absolute
+      bottom: 0
+      left: 0
+      border-top: 29 / $size solid $color
+      border-left: 29 / $size solid transparent
+      border-right: 29 / $size solid transparent
+      width: 42 / $size
+      height: 0
+
+
+
+//Here's where you make the shapes!
+
+.hexagon1, .hexagon2
+  +shape(hexagon, 4em, $color7)
+
+
+#flyin
+  font-size: 0
+  opacity: 0
+  transition: 1000ms
+  &.run
+    font-size: 20px
+    opacity: 1

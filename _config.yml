@@ -1,0 +1,14 @@
+# Site settings
+title: Invitation
+email: chetan.pm@rediffmail.com
+description: > # Invitation for my personal event.
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "Gemfile.lock"]
+baseurl: "" # the subpath of your site, e.g. /blog/
+highlighter: pygments
+github: [Repository metadata]
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: pmchetan
+github_username:  chetanpm
+
+# Build settings
+markdown: redcarpet
