@@ -13,8 +13,8 @@ On mac: {windows need ruby installation first}
   run bundle update
   This will install required plugins.
 
-  Get Jekyll -- $ gem install jekyll
-      Nodejs
+  Get Jekyll -- $ gem install jekyll,  
+      Nodejs,  and
       Gulp   -- $ sudo npm install -g gulp
 
 Navigate into the directory and run -- npm install
@@ -23,7 +23,7 @@ Navigate into the directory and run -- npm install
 Inside project folder run -- gulp
 -- Enjoy --
 
-Follow gh-pages steps to deploy on github servers free of cost.
+Follow gh-pages steps to deploy on github servers.
 
 For more follow projects:
 
