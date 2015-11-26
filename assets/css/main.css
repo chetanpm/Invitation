@@ -876,7 +876,7 @@ a:link, a:active, a:hover, a:visited {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(/assets/img/space1.jpg) center center;
+  background: url(/Invitation/assets/img/space1.jpg) center center;
   background-size: cover; }
 
 .banner {
