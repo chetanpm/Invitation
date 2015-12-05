@@ -989,8 +989,8 @@ a:link, a:active, a:hover, a:visited {
 /* Heart beat animation */
 @keyframes beat {
   to {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5); } }
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); } }
 
 .prologue {
   color: #c8f7b6;
