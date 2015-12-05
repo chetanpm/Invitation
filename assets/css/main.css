@@ -1005,7 +1005,7 @@ a:link, a:active, a:hover, a:visited {
   color: #f7e6b6;
   font-size: 1.1em; }
 
-@media (max-width: 440px) {
+@media (max-width: 520px) {
   .hexagon1, .hexagon2 {
     font-size: 1em;
     -webkit-box-pack: center;
